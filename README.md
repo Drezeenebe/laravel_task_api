@@ -21,20 +21,31 @@ Lista de rutas para consumir API:
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>GET|HEAD</td>
+            <td>api/tasks</td>
+            <td>Get all task </td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>api/tasks</td>
+            <td>Create a task </td>
+        </tr>
+        <tr>
+            <td>GET|HEAD</td>
+            <td>api/tasks/{id_task}</td>
+            <td>Show a task </td>
+        </tr>
+        <tr>
+            <td>PUT|PATCH</td>
+            <td>api/tasks/{id_task}</td>
+            <td>Update a task </td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>api/tasks/{id_task}</td>
+            <td>Delete a task </td>
         </tr>
     </tbody>
 </table>
-  +------------+-----------------------+------------------+
-  |  Method    |  URI                  |   Action         |  
-  +------------+-----------------------+------------------+
-  |  GET|HEAD  |  api/tasks            |   Get all task   |
-  |  POST      |  api/tasks            |   Create a task  |
-  |  GET|HEAD  |  api/tasks/{id_task}  |   Show a task    |
-  |  PUT|PATCH |  api/tasks/{id_task}  |   Update a task  | 
-  |  DELETE    |  api/tasks/{id_task}  |   Delete a task  | 
-  +------------+-----------------------+------------------+
 
 
