@@ -12,6 +12,21 @@
 Proyecto desarrollado con Laravel para crear una API basica de tareas, con las consultas basicas de un CRUD.
 
 Lista de rutas para consumir API:
+
+<table>
+    <thead>
+        <th>Method</th>
+        <th>URI</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
   +------------+-----------------------+------------------+
   |  Method    |  URI                  |   Action         |  
   +------------+-----------------------+------------------+
